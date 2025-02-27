@@ -1,13 +1,16 @@
 ---
-title: "Untitled"
+title: "02_Analysis"
 author: "Vaibhav Shelar"
 date: "2025-02-27"
 output:
+  html_document: default
   md_document:
     variant: gfm
-  pdf_document: default
-  html_document: default
+  toc: true
+  toc_float: true
   word_document: default
+  pdf_document: default
 ---
 
-# This isan example of script 2 analysis 2
+## Analysis 2 
+This is an example of organixzing your analysis on GitHub
