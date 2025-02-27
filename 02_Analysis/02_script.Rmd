@@ -1,0 +1,13 @@
+---
+title: "Untitled"
+author: "Vaibhav Shelar"
+date: "2025-02-27"
+output:
+  md_document:
+    variant: gfm
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+
+# This isan example of script 2 analysis 2
