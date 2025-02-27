@@ -1,0 +1,49 @@
+---
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+
+# Dummy demonstration Repository
+
+This is dummy repository to demonstrate directory structure, file trees, linking dois and editing a README.md file
+
+## DOI
+
+[![DOI](https://zenodo.org/badge/938521782.svg)](https://doi.org/10.5281/zenodo.14938860)
+
+
+## Links to the anlysis
+
+-[01 Analysis](01_Analysis/01_script.md)
+
+-[02 Analysis](02_Analysis/02_script.md)
+
+
+## file Tree
+```{r}
+library(fs)
+fs::dir_tree()
+```
+
+```bash
+├── 01_Analysis
+│   ├── 01_script.docx
+│   ├── 01_script.html
+│   ├── 01_script.md         
+│   ├── 01_script.pdf
+│   └── 01_script.Rmd
+├── 02_Analysis
+│   ├── 02_script.md
+│   ├── 02_script.pdf
+│   └── 02_script.Rmd    #Github format markdown
+├── Dummy.Rproj        # Top level directory 
+├── README.docx
+├── README.md           #Top level directory README
+├── README.pdf
+├── README.Rmd
+└── TipsR.csv          #Raw data for analysis
+
+```

@@ -1,18 +1,33 @@
 ---
-title: "Untitled"
+title: "01_Analysis"
 author: "Vaibhav Shelar"
 date: "2025-02-27"
 output:
+  html_document: default
   md_document:
     variant: gfm
+  toc: true
+  toc_float: true
   word_document: default
-  html_document: default
   pdf_document: default
 ---
 
+## Analysis 1 
+This is an example of organixzing your analysis on GitHub
+
 ```{r}
-library(readr)
-datum <- read.csv("D:/Spring 2025/PLPA7820/Dummy/TipsR.csv", na.strings = ".")
-str(datum)
+library(knitr)
 ```
 
+### Example of relative file paths
+
+
+```{r}
+datum <- read.csv("D:/Spring 2025/PLPA7820/Dummy/01_Analysis/TipsR.csv", na.strings = ".")
+kable(datum)
+```
+
+
+```r
+
+```

@@ -9,11 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Vaibhav Shelar" />
 
-<meta name="date" content="2025-02-27" />
 
-<title>README.knit</title>
+<title>README</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -357,54 +355,18 @@ display: none;
 <div id="dummy-demonstration-repository" class="section level1">
 <h1>Dummy demonstration Repository</h1>
 <p>This is dummy repository to demonstrate directory structure, file
-trees, linking dois and editing a README.md file</p>
-<p>##DOI</p>
-<p><a href="https://doi.org/10.5281/zenodo.14938860"><img role="img" aria-label="DOI" src="data:image/svg+xml; charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgICAgd2lkdGg9IjE5MC44NDM3NSIgaGVpZ2h0PSIyMCI+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJiIiB4Mj0iMCIgeTI9IjEwMCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNiYmIiIHN0b3Atb3BhY2l0eT0iLjEiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICA8bWFzayBpZD0iYSIgd2lkdGg9IjE5MC44NDM3NSIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxyZWN0IHdpZHRoPSIxOTAuODQzNzUiIGhlaWdodD0iMjAiIHJ4PSIzIgogICAgICAgICAgICBmaWxsPSIjZmZmIi8+CiAgICAgICAgPC9tYXNrPgogICAgICAgIDxnIG1hc2s9InVybCgjYSkiPgogICAgICAgICAgICA8cGF0aCBmaWxsPSIjNTU1IiBkPSJNMCAwaDMxLjM3NXYyMEgweiIgLz4KICAgICAgICAgICAgPHBhdGggZmlsbD0iIzAwN2VjNiIKICAgICAgICAgICAgZD0iTTMxLjM3NSAwaDE1OS40Njg3NXYyMEgzMS4zNzV6IgogICAgICAgICAgICAvPgogICAgICAgICAgICA8cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNMCAwaDE5MC44NDM3NXYyMEgweiIgLz4KICAgICAgICA8L2c+CiAgICAgICAgPGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkRlamFWdSBTYW5zLAogICAgICAgIFZlcmRhbmEsR2VuZXZhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiPgogICAgICAgICAgICA8dGV4dCB4PSIxNi4xODc1IiB5PSIxNSIgZmlsbD0iIzAxMDEwMSIKICAgICAgICAgICAgZmlsbC1vcGFjaXR5PSIuMyI+CiAgICAgICAgICAgICAgICBET0kKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxNi4xODc1IiB5PSIxNCI+CiAgICAgICAgICAgICAgICBET0kKICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTAuNjA5Mzc1IgogICAgICAgICAgICB5PSIxNSIgZmlsbD0iIzAxMDEwMSIgZmlsbC1vcGFjaXR5PSIuMyI+CiAgICAgICAgICAgICAgICAxMC41MjgxL3plbm9kby4xNDkzODg2MQogICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExMC42MDkzNzUiIHk9IjE0Ij4KICAgICAgICAgICAgICAgIDEwLjUyODEvemVub2RvLjE0OTM4ODYxCiAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICA8L2c+CiAgICA8L3N2Zz4=" alt="DOI" /></a></p>
+trees, linking dois, and editing a README.md file</p>
 <div id="links-to-the-anlysis" class="section level2">
 <h2>Links to the anlysis</h2>
-<p>-<a href="01_Analysis/01_script.md">01 Analysis</a></p>
-<p>-<a href="02_Analysis/02_script.md">02 Analysis</a></p>
+<p>These are the links to the analysis files viewable on GitHub (.md).
+The .RMD files and .HTML rendered files are also available.</p>
+<ul>
+<li><p><a href="01_Analysis/01_script.md">Analysis 1</a></p></li>
+<li><p><a href="02_Analysis/02_script.md">Analysis 2</a></p></li>
+</ul>
 </div>
 <div id="file-tree" class="section level2">
-<h2>file Tree</h2>
-<pre class="r"><code>library(fs)
-fs::dir_tree()</code></pre>
-<pre><code>## .
-## ├── 01_Analysis
-## │   ├── 01_script.docx
-## │   ├── 01_script.html
-## │   ├── 01_script.md
-## │   ├── 01_script.pdf
-## │   └── 01_script.Rmd
-## ├── 02_Analysis
-## │   ├── 02_script.md
-## │   ├── 02_script.pdf
-## │   └── 02_script.Rmd
-## ├── Dummy.Rproj
-## ├── README.docx
-## ├── README.html
-## ├── README.log
-## ├── README.md
-## ├── README.Rmd
-## ├── README.tex
-## └── TipsR.csv</code></pre>
-<pre class="bash"><code>├── 01_Analysis
-│   ├── 01_script.docx
-│   ├── 01_script.html
-│   ├── 01_script.md         
-│   ├── 01_script.pdf
-│   └── 01_script.Rmd
-├── 02_Analysis
-│   ├── 02_script.md
-│   ├── 02_script.pdf
-│   └── 02_script.Rmd    #Github format markdown
-├── Dummy.Rproj        # Top level directory 
-├── README.docx
-├── README.md           #Top level directory README
-├── README.pdf
-├── README.Rmd
-└── TipsR.csv          #Raw data for analysis
-</code></pre>
+<h2>File Tree</h2>
 </div>
 </div>
 
